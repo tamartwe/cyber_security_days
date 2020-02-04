@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const superSecret = fs.readFileSync('./secret.txt').toString();
+const superSecret = fs.readFileSync('./secret.txt').toString();  
 
 const getSecret = () => {
     return superSecret;
